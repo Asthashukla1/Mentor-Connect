@@ -20,6 +20,8 @@ nav{
 }
 nav img{
     width: 150px;
+    border-radius: 70px;
+    mix-blend-mode: lighten;
 }
 .nav-links{
     flex: 1;
@@ -63,7 +65,7 @@ nav img{
     margin-bottom: 20px;
 }
 .text-box p{
-    font-size: 20px;
+    font-size: 18px;
     margin-bottom: 20px;
 }
 .hero-btn{

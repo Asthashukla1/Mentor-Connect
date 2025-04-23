@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Resume Analyzer</title>
+</head>
+<body>
+  <h1>Resume Analyzer</h1>
+
+  <form id="resumeForm" enctype="multipart/form-data">
+    <input type="text" name="role" placeholder="Enter Job Role" required><br><br>
+    <input type="file" name="resume" accept=".pdf" required><br><br>
+    <button type="submit">Analyze Resume</button>
+  </form>
+
+  <h2>Result:</h2>
+  <pre id="result"></pre>
+
+  <script src="resume.js"></script> <!-- 👈 This will be our next step -->
+</body>
+</html>
